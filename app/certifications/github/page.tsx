@@ -4,24 +4,37 @@ import { HoverEffect } from '@/components/ui/card-hover-effect';
 
 export const projects = [
   {
-    title: "Github Foundations",
-    description: "Github Foundations",
-    link: "/Github Foundations",
+    title: "GitHub Foundations",
+    description: "Learn core GitHub workflows, repositories, and collaboration",
+    link: "/github-foundations",
     image: "/github/github-foundations.png",
   },
   {
-    title: "Github Actions",
-    description: "Github Actions",
-    link: "/Github Actions",
+    title: "GitHub Copilot",
+    description: "AI-powered coding assistance for faster development",
+    link: "/github-copilot",
+    image: "/github/github-copilot.png",
+  },
+  {
+    title: "GitHub Actions",
+    description: "Automate builds, tests, and deployments with workflows",
+    link: "/github-actions",
     image: "/github/github-actions.png",
   },
   {
-    title: "Github Advanced Security",
-    description: "Github Advanced Security",
-    link: "/Github Advanced Security",
+    title: "GitHub Admin",
+    description: "Manage users, permissions, security, organization settings",
+    link: "/github-admin",
+    image: "/github/github-admin.png",
+  },
+  {
+    title: "GitHub Advanced Security",
+    description: "Identify vulnerabilities and secure code repositories",
+    link: "/github-advanced-security",
     image: "/github/github-advanced-security.png",
   },
-]
+];
+
 
 
 function page() {
